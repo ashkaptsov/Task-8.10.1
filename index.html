@@ -1,0 +1,14 @@
+<form action="#">
+    <label>
+        Текст
+        <input id="text" type="text" placeholder="Введите текст">
+    </label>
+    <button id="submit" type="submit">Нажми меня</button>
+</form>
+
+<script>
+  document.querySelector('#text') .addEventListener('input', (event) => {
+  console.log(event.target.value);
+  });
+
+  </script>
