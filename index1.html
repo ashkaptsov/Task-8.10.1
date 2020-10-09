@@ -1,0 +1,19 @@
+<html>
+<head>
+    <body>
+    <form action="#">
+        <label>
+            Текст
+            <input id="text" type="text">
+        </label>
+        <button type="submit" onclick="clickButton()"> Нажми меня </button>
+    </form>
+    </body>
+
+    <script>
+        function clickButton(){
+            alert( "Спасибо за нажатие на нашу замечательную кнопку. Значение вашего поля — " + document.querySelector('#text').value);      
+        };
+    </script>
+</head>
+</html>
